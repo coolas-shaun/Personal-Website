@@ -4,102 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shaun's Personal Site</title>
-
-    <style>
-        
-        body{
-            background-color: #BDF2D5;
-        }
-
-        hr{
-            /* border-style: dotted none none; */ 
-            /* or we can use*/
-            border-style: none;
-            border-top-style: dotted; 
-            border-color: grey;
-            border-width: 5px;
-            width: 5%;
-        }
-
-    </style>
+    <title>Shaun Shaju</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico?v=2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat:wght@200&family=Sacramento&display=swap" rel="stylesheet">
 </head>
-<body">
-    <table cellspacing="20">
-        <tr>
-            <td><img src="/images/dp_withB&W-1-bg-blue+white-stroke.jpg" alt="" height="120" width="120"></td>
-            <td><h1>Shaun Shaju</h1>
-                <p><em> <strong> A Budding Programmer</strong></em></p>
-                <p>A Full-stack development enthusiast. Currently working as a Automation Test Analyst in a leadng MNC. 
-                    A movie maniac. Self-improvement geek.
-                </p></td>
-        </tr>
-    </table>
-    
+<body>
+   <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="">
+    <h1>I'm Shaun</h1>
+    <h2>a Budding <span class="pro">pro</span>grammer 🌱</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="">
+    <img src="images/mountain.png" alt="">
+   </div> 
+   <div class="middle-container">
+    <div class="profile">
+      <img class="profile-img"src="images/dp_withB&W-1-bg-blue+white-stroke.jpg" alt="">
+      <h2>Hello.</h2>
+      <p class="intro">Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+    </div>
     <hr>
-    <h3>Tech Stack</h3>
-    <ul>
-        <li>Java</li>
-        <li>Python</li>
-        <li>Selenium</li>
-        <li>Robot Framework</li>
-        <li>TestNG</li>
-    </ul>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="skill-img-dev" src="images/web-programming.png" alt="">
+        <h3>Lorem & Ipsum</h3>
+        <p class="skill-desc">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+      </div>
+      <div class="skill-row">
+        <img class="skill-img-problem" src="images/problem-solving.png" alt="">
+        <h3>Lorem Ipsum Dolor</h3>
+        <p class="skill-desc">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+      </div>
+    </div>
     <hr>
-    <h3>Hobbies</h3>
-    <ol type="i">
-        <li>Listening to music</li>
-        <li>Reading</li>
-        <li>Meditation</li>
-        <li>Learning</li>
-    </ol>
-    <hr>
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-        <thead>
-            <th>Duration</th>
-            <th>Company</th>
-            <th>Description</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2021-Present</td>
-                <td>Cognizant</td>
-                <td>QEA - Programmer Trainee</td>
-            </tr>
-            <tr>
-                <td>2 months</td>
-                <td>Yellow Club</td>
-                <td>Funtional Tester</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table  cellspacing="10">
-        <tbody>
-            <tr>
-                <td>Java</td>
-                <td>⭐⭐⭐⭐</td>
-                <td>Effective Commnication</td>
-                <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>Python</td>
-                <td>⭐⭐⭐</td>
-                <td>Reading</td>
-                <td>⭐⭐</td>
-            </tr>
-            <tr>
-                <td>SQL</td>
-                <td>⭐⭐⭐</td>
-                <td>Learning</td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            
-        </tbody>
-    </table>
-    <hr>
-    <p><a href="contactMe.html">Contact Details</a></p>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+      <p class="contact-msg">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+    </div>
+  </div>
+  
+  
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="copyright">© Shaun Shaju.</p>
+  </div>
 </body>
 </html>
